@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp77
 {
@@ -10,7 +6,13 @@ namespace ConsoleApp77
     {
         static void Main(string[] args)
         {
-            //hello
+            Console.WriteLine("What is your name?");
+            var userName = Console.ReadLine();
+
+            Console.WriteLine($"Hello {userName}");
+
+            Console.ReadKey(false);
+            Console.WriteLine("Goodbye...");
         }
     }
 }
